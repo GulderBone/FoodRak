@@ -26,8 +26,6 @@ workflows:
           context: GitHub
       - unit-tests:
           context: GitHub
-      - instrumentation-tests:
-          context: GitHub
       - build-apks:
           context: GitHub
 
