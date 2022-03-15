@@ -35,7 +35,7 @@ jobs:
 
     steps:
       - checkout
-      - retore_cache:
+      - restore_cache:
           key: wrapper-{{ checksum "gradle/wrapper/gradle-wrapper.properties" }}
       - restore_cache:
           name: Restore Gradle cache
